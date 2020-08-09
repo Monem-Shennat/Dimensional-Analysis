@@ -1,0 +1,9 @@
+sum
+where
+ i = 1 fby i+1;
+ term =  1 fby term/i;
+ sum = 0 fby sum+term;
+ columns = 1;
+ rows = 12;
+ numformat='%8.6f';
+end
